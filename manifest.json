@@ -1,0 +1,120 @@
+{
+  "name": "أبخص - مساعد الشراء الذكي",
+  "short_name": "أبخص",
+  "description": "مساعدك الذكي الذي يحلل آلاف المتاجر لضمان أفضل صفقة في السوق السعودي",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  
+  "categories": ["shopping", "productivity"],
+  "screenshots": [
+    {
+      "src": "images/screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshot2.png",
+      "type": "image/png",
+      "sizes": "1170x2532",
+      "form_factor": "wide"
+    }
+  ],
+  
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icon-maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ],
+  
+  "shortcuts": [
+    {
+      "name": "بحث سريع",
+      "short_name": "بحث",
+      "description": "البحث الفوري عن المنتجات",
+      "url": "/search",
+      "icons": [
+        {
+          "src": "images/search-icon.png",
+          "type": "image/png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "المقارنة",
+      "short_name": "مقارنة",
+      "description": "مقارنة المنتجات المحفوظة",
+      "url": "/compare",
+      "icons": [
+        {
+          "src": "images/compare-icon.png",
+          "type": "image/png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "المكافآت",
+      "short_name": "نقاط",
+      "description": "برنامج المكافآت والنقاط",
+      "url": "/rewards",
+      "icons": [
+        {
+          "src": "images/rewards-icon.png",
+          "type": "image/png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.abkhas.app",
+      "id": "com.abkhas.app"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/sa/app/abkhas/id123456789"
+    }
+  ],
+  
+  "prefer_related_applications": false,
+  
+  "screenshots_ar": [
+    {
+      "src": "images/screenshot-search.png",
+      "alt": "شاشة البحث والمقارنة"
+    },
+    {
+      "src": "images/screenshot-details.png",
+      "alt": "تفاصيل المنتج والعروض"
+    },
+    {
+      "src": "images/screenshot-rewards.png",
+      "alt": "برنامج المكافآت"
+    }
+  ]
+}

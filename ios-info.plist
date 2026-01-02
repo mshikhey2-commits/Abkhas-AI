@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- معلومات التطبيق الأساسية -->
+	<key>CFBundleDisplayName</key>
+	<string>أبخص</string>
+	
+	<key>CFBundleIdentifier</key>
+	<string>com.abkhas.app</string>
+	
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ar</string>
+	
+	<!-- اللغات المدعومة -->
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>ar</string>
+		<string>en</string>
+	</array>
+	
+	<!-- معلومات الإصدار -->
+	<key>MinimumOSVersion</key>
+	<string>14.0</string>
+	
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<true/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	
+	<!-- التوجهات المدعومة -->
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	
+	<!-- الأذونات والأوصاف -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>نحتاج إلى موقعك لإيجاد المتاجر والعروض القريبة منك</string>
+	
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>نحتاج إلى موقعك لإيجاد المتاجر والعروض القريبة منك</string>
+	
+	<key>NSCameraUsageDescription</key>
+	<string>نحتاج إلى كاميرتك للبحث البصري عن المنتجات</string>
+	
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>نحتاج إلى الوصول لمكتبة الصور لتحميل صور المنتجات</string>
+	
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>نحتاج إلى حفظ الصور في مكتبتك</string>
+	
+	<key>NSCalendarsUsageDescription</key>
+	<string>نحتاج إلى الوصول للتقويم لإنشاء تنبيهات الأسعار</string>
+	
+	<key>NSRemindersUsageDescription</key>
+	<string>نحتاج إلى الوصول للتذكيرات لإنشاء تذكيرات الأسعار</string>
+	
+	<key>NSUserTrackingUsageDescription</key>
+	<string>نحتاج إلى إذنك لتحسين تجربتك الشخصية</string>
+	
+	<!-- البيانات والتخزين -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>نحتاج إلى الوصول للشبكة المحلية لتحسين الاتصال</string>
+	
+	<key>NSBonjourServiceTypes</key>
+	<array>
+		<string>_http._tcp</string>
+		<string>_https._tcp</string>
+	</array>
+	
+	<!-- معلومات الأمان والخصوصية -->
+	<key>NSExceptionDomains</key>
+	<dict>
+		<key>abkhas.app</key>
+		<dict>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSExceptionAllowsInsecureHTTPLoads</key>
+			<false/>
+			<key>NSRequiresCertificateTransparency</key>
+			<false/>
+		</dict>
+		<key>api.abkhas.app</key>
+		<dict>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSExceptionAllowsInsecureHTTPLoads</key>
+			<false/>
+			<key>NSRequiresCertificateTransparency</key>
+			<false/>
+		</dict>
+	</dict>
+	
+	<!-- HTTPS فقط -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsArbitraryLoadsInMedia</key>
+		<false/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<false/>
+		<key>NSRequiresCertificateTransparency</key>
+		<true/>
+	</dict>
+	
+	<!-- معلومات البحث البصري -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>يستخدم التطبيق خوارزميات الذكاء الاصطناعي للبحث البصري</string>
+	
+	<!-- إعدادات الخلفية -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	
+	<!-- إعدادات الإشعارات -->
+	<key>FirebaseMessagingAutoInitEnabled</key>
+	<true/>
+	
+	<!-- النمط المظهري -->
+	<key>UIUserInterfaceStyle</key>
+	<string>Automatic</string>
+	
+	<!-- ألوان التطبيق -->
+	<key>UIAppFonts</key>
+	<array>
+		<string>GE-SS-Text-Light.ttf</string>
+		<string>GE-SS-Text-Regular.ttf</string>
+		<string>GE-SS-Text-Bold.ttf</string>
+	</array>
+	
+	<!-- معرف النطاق -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.abkhas.app</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>abkhas</string>
+				<string>com.googleusercontent.apps.YOUR-GOOGLE-APP-ID</string>
+			</array>
+		</dict>
+	</array>
+	
+	<!-- معلومات الطباعة -->
+	<key>UIPrintingSupported</key>
+	<true/>
+	
+	<!-- Handoff Support -->
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>com.abkhas.app.product.view</string>
+		<string>com.abkhas.app.search</string>
+	</array>
+	
+	<!-- معلومات الشركة -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2024 Abkhas Inc. جميع الحقوق محفوظة</string>
+	
+	<!-- متطلبات الأجهزة -->
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	
+	<!-- تصنيف المحتوى -->
+	<key>iTunesMetadata.plist</key>
+	<dict>
+		<key>contentRatingAgeRating</key>
+		<string>4+</string>
+		<key>contentRatingValue</key>
+		<string>0</string>
+	</dict>
+	
+</dict>
+</plist>

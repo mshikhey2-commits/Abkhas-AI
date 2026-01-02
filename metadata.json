@@ -1,0 +1,8 @@
+{
+  "name": "أبخص - Abkhas AI Shopping Assistant",
+  "description": "أبخص هو مساعدك الذكي الذي يعرف السوق السعودي أكثر منك، يقارن الأسعار ويحلل المواصفات ليعطيك أفضل توصية شرائية.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
